@@ -164,3 +164,25 @@ def create_bucket(bucket_name, region='eu-west-1'):
 bucketname= 'devopsasaleh'
 create_bucket(bucketname)
 ```
+
+### autoscaling and load balancing
+- asg: launch template or configuration
+- auto load balancing: target group 80
+- Aws keys
+- Vpc -subnet-sg
+### Setup Auto-scaling group with AMI
+- Select AMI launch template
+- Select the AMI That you want to use.
+- Add security groups and vpc
+- Add provisioning script to user data
+
+- Add Autoscaling Name
+- Choose launch template
+- Select vpc
+- Attach application load balancer and set if it is internet facing or no
+- enable metrics for cloudwatch
+- Set the group size e.g. min and max
+-  select target tracking scaling policy
+- add the metric for measuring cpu utilisation which is targeted to 30%
+- add tags
+- review and create!
