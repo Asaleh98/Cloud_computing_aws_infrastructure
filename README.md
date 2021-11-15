@@ -104,4 +104,9 @@ path/seed.js
  - Scaling up vs Scaling out
  - Scaling up: increasing the size of your instances
  - Scaling out: increasing the amount of instances in your auto scaling group
-![Screenshot_(157)](https://user-images.githubusercontent.com/89383713/141775549-e8e45d87-942a-480f-bc68-49b021e52cce.png)
+
+### AWS CLI
+- To create AWS CLI
+ - dependencies: python3 with any other required
+ - AWS access and secret keys
+ - S3 access through our IAM role/account
