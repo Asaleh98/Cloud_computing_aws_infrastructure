@@ -109,4 +109,29 @@ path/seed.js
 - To create AWS CLI
  - dependencies: python3 with any other required
  - AWS access and secret keys
- - S3 access through our IAM role/account
+ - S3 access through our IAM role/account - apply CRUD
+ - CRUD
+  - C - Create
+  - R - Read
+  - U - Update
+  - D - Delete
+- AWSCLI can be used to create any `aws` resources  
+```
+sudo apt-get Update
+sudo apt-get upgrade
+sudo apt-get install python -y
+sudo apt-get install python-pip -y
+sudo pip install awscli
+sudo apt install python3-pip
+alias python=python3
+
+```
+### s3
+- `aws s3 ls` -lists buckets
+- `aws--version` - checks version  
+- `aws configure` to add our keys and config
+- `aws s3 mb s3://name --region name` - creates bucket
+- `aws s3 cp s3://name/ file.md`- copies over bucket
+- `aws s3 rm s3://bucketname --recursive` - empties bucket
+- `aws s3 rb s3://bucketname` - deletes bucket
+- `aws s3 sync s3://bucketname/ test` - syncs bucket with localhost and creates folder
