@@ -186,3 +186,17 @@ create_bucket(bucketname)
 - add the metric for measuring cpu utilisation which is targeted to 30%
 - add tags
 - review and create!
+
+
+### VPC
+- Step 1: VPC CIDR block 10.101.0.0/16
+- Step 2: Internet gateway
+  - attach the internet gateway to the VPC
+- Step 3:Route table
+  - Allow 10.101.0.0/16
+  - Allow all 0.0.0.0/16
+- Step 4: Public subnet 10.101.1.0/16 for node app
+  - Connect to our VPC
+  - Private subnet 10.101.2.0/16 for MongoDB
+- Step 5: Associate public subnet to our RT
+- Step 6: Security groups public and private with required rules for public and private subnets
