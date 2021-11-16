@@ -200,3 +200,4 @@ create_bucket(bucketname)
   - Private subnet 10.101.2.0/16 for MongoDB
 - Step 5: Associate public subnet to our RT
 - Step 6: Security groups public and private with required rules for public and private subnets
+![image](https://user-images.githubusercontent.com/89383713/142030211-392903c1-0df6-4857-bb36-c43445d6c83b.png)
