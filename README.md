@@ -180,7 +180,7 @@ create_bucket(bucketname)
 - Choose launch template
 - Select vpc
 - Attach application load balancer and set if it is internet facing or no
-- enable metrics for cloudwatch
+- enable metrics for cloud-watch
 - Set the group size e.g. min and max
 -  select target tracking scaling policy
 - add the metric for measuring cpu utilisation which is targeted to 30%
